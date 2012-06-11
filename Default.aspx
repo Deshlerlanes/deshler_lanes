@@ -4,10 +4,9 @@
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-    <h2>
-        The site of Deshler Lanes is coming soon...
-    </h2>
-    <p>
-        Feel free to call us at (419) 278-1956 
-    </p>
+    <h2>The site of Deshler Lanes is coming soon...</h2>
+
+    <div align="center" >
+        <img src="Images/Under-Construction.gif" alt="Construction"align="center" width="680" height="400"/>
+    </div>
 </asp:Content>
