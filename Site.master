@@ -21,7 +21,11 @@
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
                     <Items>
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
-                       <%-- <asp:MenuItem NavigateUrl="~/About.aspx" Text="About"/>--%>
+                        <asp:MenuItem NavigateUrl="~/High_School_Bowling.aspx" Text="High School Bowling"/>
+                        <asp:MenuItem NavigateUrl="~/Menu.aspx" Text="Menu"/>
+                        <asp:MenuItem NavigateUrl="~/Photo_Gallery.aspx" Text="Photo_Gallery"/>
+                        <asp:MenuItem NavigateUrl="~/Leagues.aspx" Text="Leagues"/>
+                        <asp:MenuItem NavigateUrl="~/Contact_Us.aspx" Text="Contact Us"/>
                     </Items>
                 </asp:Menu>
             </div>
