@@ -18,7 +18,7 @@
                 </h1>
             </div>
             <div class="clear hideSkiplink">
-                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" Orientation="Horizontal">
                     <Items>
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
                         <asp:MenuItem NavigateUrl="~/High_School_Bowling.aspx" Text="High School Bowling"/>
@@ -36,8 +36,9 @@
         <div class="clear">
         </div>
     </div>
-    <div class="footer">
-        
+    <div class="footer">  
+    <a href="mailto:webmaster@deshlerlanes.com">Contact Webmaster</a> 
+    <asp:HyperLink id="link1" runat="server" Text="SiteMap" NavigateUrl="~/Site_Map.aspx" />
     </div>
     </form>
 </body>
