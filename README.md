@@ -16,5 +16,5 @@ Site for Deshler Lanes Bowling Alley
 > 
 > Detailed Commit Summary
 > 
-> Issue number *if applicable*
+> [#IssueNumber]
 ```````````````````````````
