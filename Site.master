@@ -38,7 +38,7 @@
     </div>
     <div class="footer">  
     <a href="mailto:webmaster@deshlerlanes.com">Contact Webmaster</a> 
-    <asp:HyperLink id="link1" runat="server" Text="SiteMap" NavigateUrl="~/Site_Map.aspx" />
+    <asp:HyperLink id="link1" runat="server" Text="SiteMap" NavigateUrl="~/Pages/Site_Map.aspx" />
     </div>
     </form>
 </body>
