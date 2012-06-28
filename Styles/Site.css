@@ -292,3 +292,10 @@ div.accountInfo
     text-align: right;
     padding-right: 10px;
 }
+
+.facebook
+{
+     vertical-align: bottom;
+     position: fixed;
+     margin: 0px 0px 0px 47px
+}

@@ -18,27 +18,33 @@
                 </h1>
             </div>
             <div class="clear hideSkiplink">
-                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" Orientation="Horizontal">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false"
+                    Orientation="Horizontal">
                     <Items>
-                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
-                        <asp:MenuItem NavigateUrl="~/High_School_Bowling.aspx" Text="High School Bowling"/>
-                        <asp:MenuItem NavigateUrl="~/Menu.aspx" Text="Menu"/>
-                        <asp:MenuItem NavigateUrl="~/Photo_Gallery.aspx" Text="Photo_Gallery"/>
-                        <asp:MenuItem NavigateUrl="~/Leagues.aspx" Text="Leagues"/>
-                        <asp:MenuItem NavigateUrl="~/Contact_Us.aspx" Text="Contact Us"/>
+                        <asp:MenuItem NavigateUrl="~/Pages/Default.aspx" Text="Home" />
+                        <asp:MenuItem NavigateUrl="~/Pages/High_School_Bowling.aspx" Text="High School Bowling" />
+                        <asp:MenuItem NavigateUrl="~/Pages/Menu.aspx" Text="Menu" />
+                        <asp:MenuItem NavigateUrl="~/Pages/Photo_Gallery.aspx" Text="Photo_Gallery" />
+                        <asp:MenuItem NavigateUrl="~/Pages/Leagues.aspx" Text="Leagues" />
+                        <asp:MenuItem NavigateUrl="~/Pages/Contact_Us.aspx" Text="Contact Us" />
                     </Items>
                 </asp:Menu>
             </div>
         </div>
         <div class="main">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+
         </div>
         <div class="clear">
         </div>
     </div>
-    <div class="footer">  
-    <a href="mailto:webmaster@deshlerlanes.com">Contact Webmaster</a> 
-    <asp:HyperLink id="link1" runat="server" Text="SiteMap" NavigateUrl="~/Pages/Site_Map.aspx" />
+    <div class="footer">
+        <div class="facebook">
+            <iframe src="http://www.facebook.com/plugins/like.php?href=http://www.facebook.com/Ur_url"
+                align="left" style="border: none; width: 200px; height: 80px"></iframe>
+        </div>
+        <a href="mailto:webmaster@deshlerlanes.com">Contact Webmaster</a>
+        <asp:HyperLink ID="link1" runat="server" Text="SiteMap" NavigateUrl="~/Pages/Site_Map.aspx" />
     </div>
     </form>
 </body>
