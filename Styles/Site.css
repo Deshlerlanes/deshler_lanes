@@ -297,5 +297,12 @@ div.accountInfo
 {
      vertical-align: bottom;
      position: fixed;
+     margin: 30px 0px 0px 47px
+}
+
+.twitter
+{
+     vertical-align: bottom;
+     position: fixed;
      margin: 0px 0px 0px 47px
 }
