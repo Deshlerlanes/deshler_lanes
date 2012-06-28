@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -80,3 +81,60 @@
     </form>
 </body>
 </html>
+=======
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    Deshler Lanes
+                </h1>
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false"
+                    Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Pages/Default.aspx" Text="Home" />
+                        <asp:MenuItem NavigateUrl="~/Pages/High_School_Bowling.aspx" Text="High School Bowling" />
+                        <asp:MenuItem NavigateUrl="~/Pages/Menu.aspx" Text="Menu" />
+                        <asp:MenuItem NavigateUrl="~/Pages/Photo_Gallery.aspx" Text="Photo_Gallery" />
+                        <asp:MenuItem NavigateUrl="~/Pages/Leagues.aspx" Text="Leagues" />
+                        <asp:MenuItem NavigateUrl="~/Pages/Contact_Us.aspx" Text="Contact Us" />
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        <div class="facebook">
+            <iframe src="http://www.facebook.com/plugins/like.php?href=http://www.facebook.com/Ur_url"
+                align="left" style="border: none; width: 200px; height: 80px"></iframe>
+        </div>
+        <div class="twitter">
+         <a href="https://twitter.com/DeshlerLanes" class="twitter-follow-button" data-show-count="false">
+                Follow @twitter</a>
+            <script>                !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } } (document, "script", "twitter-wjs");</script>
+        </div>
+        <a href="mailto:webmaster@deshlerlanes.com">Contact Webmaster</a>
+        <asp:HyperLink ID="link1" runat="server" Text="SiteMap" NavigateUrl="~/Pages/Site_Map.aspx" />
+    </div>
+    </form>
+</body>
+</html>
+>>>>>>> b23c47cbdfb33967a4873a4661c50c0639158e2c
