@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿/* DEFAULTS
 ----------------------------------------------------------*/
 html, body
@@ -10,7 +9,8 @@ html, body
 
 body   
 {
-    background: #b6b7bc;
+    background: #b6b7bc url("http://www.deshlerlanes.com/images/background.jpg") no-repeat center;
+    background-size: 100%;
     font-size: .80em;
     font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
     margin: 0px;

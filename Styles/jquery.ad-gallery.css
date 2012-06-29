@@ -8,7 +8,7 @@
  * Demo and documentation: http://coffeescripter.com/code/ad-gallery/
  */
 .ad-gallery {
-  width: 600px;
+  width: 100%;
 }
 .ad-gallery, .ad-gallery * {
   margin: 0;
@@ -50,7 +50,7 @@
     }
     .ad-gallery .ad-image-wrapper .ad-prev, .ad-gallery .ad-image-wrapper .ad-next {
       /* Or else IE will hide it */
-      background: url(images/trans.gif);
+      background: url(~/Styles/images/trans.gif);
     }
       .ad-gallery .ad-image-wrapper .ad-prev .ad-prev-image, .ad-gallery .ad-image-wrapper .ad-next .ad-next-image {
         background: url(images/ad_prev.png);
