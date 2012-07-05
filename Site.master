@@ -82,7 +82,7 @@
                 Follow @twitter</a>
             <script type="text/javascript">                !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } } (document, "script", "twitter-wjs");</script>
             </div>
-
+        <a href="http://www.yelp.com/biz/deshler-lanes-deshler"><img src="../Images/Powered_By_Yelp_Red.png" /></a>
 
         <a href="mailto:webmaster@deshlerlanes.com">Contact Webmaster</a> 
         <asp:HyperLink id="link1" runat="server" Text="SiteMap" NavigateUrl="Pages/Site_Map.aspx" />
