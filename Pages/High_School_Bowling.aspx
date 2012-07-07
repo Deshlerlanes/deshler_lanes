@@ -3,10 +3,13 @@
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-<div>
-<iframe src="http://hsbowl.com/" scrolling="yes" height=800px width=1000px></iframe>
-</div>
-
-
+<center>
+    <div>
+        <a href="../Images/Boys_Records.pdf"><img src="../Images/Boys_Team_Photo.jpg" width="600px" height="450px" /></a>
+        <br />
+        Click on an Image to See Team Records
+        <br />
+        <a href="../Images/Girls_Records.pdf"><img src="../Images/Girls_Team_Photo.jpg" width="600px" height="450px" /></a>
+    </div>
+</center>
 </asp:Content>
