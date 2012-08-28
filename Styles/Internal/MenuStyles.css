@@ -1,0 +1,46 @@
+﻿#floatMenu
+{
+    position: inherit;
+    top: 125px;
+    width: 197px;
+    max-width: 197px;
+    float: right;
+}
+
+#floatMenu ul
+{
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+#floatMenu ul li a
+{
+    display: block;
+    border: 1px solid #999;
+    background: #222 url("http://www.deshlerlanes.com/Images/Misc/NavBarBlank.jpg");
+    border-left: 6px solid #999;
+    text-decoration: none;
+    color: #000;
+    padding: 5px 5px 5px 12px;
+    height: 14px;
+}
+
+#floatMenu ul li a:hover
+{
+    background: #222 url("http://www.deshlerlanes.com/Images/Misc/NavBar.jpg");
+}
+
+#floatMenu div.menu1 li a:hover
+{  
+    border-color:red;
+}
+    
+#floatMenu div.menu2 li a:hover
+{
+    border-color:white;
+}  
+
+#floatMenu div.menu3 li a:hover
+{
+    border-color:blue;
+}  
